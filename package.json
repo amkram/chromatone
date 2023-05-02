@@ -1,0 +1,26 @@
+{
+  "name": "onscreen-piano-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cp -r audio dist/ && cp index.html dist/index.html && cp src/styles.css dist/styles.css && webpack --mode development",
+    "watch": "watch 'npm run dev' ./src"
+  },
+  "dependencies": {
+    "@tonejs/midi": "2.0.27",
+    "howler": "2.2.1",
+    "tone": "13.4.9",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "source-map-loader": "^1.0.0",
+    "typescript": "4.4.4",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
