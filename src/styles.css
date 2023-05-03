@@ -180,40 +180,40 @@ Minor seventh: #673AB7 (Deep purple)
 Major seventh: #FFC107 (Gold) */
 /* Keyboard */
 
-.note-on-1:not(.indicator) {
+.note-on-P1:not(.indicator) {
   fill: #2ce533 !important;
 }
-.note-on-flat2:not(.indicator) {
+.note-on-m2:not(.indicator) {
   fill: #F44336 !important;
 }
-.note-on-2:not(.indicator) {
+.note-on-M2:not(.indicator) {
   fill: #ffca96 !important;
 }
-.note-on-flat3:not(.indicator) {
+.note-on-m3:not(.indicator) {
   fill: #e78300 !important;
 }
-.note-on-3:not(.indicator) {
+.note-on-M3:not(.indicator) {
   fill: #bb66ca !important;
 } 
-.note-on-4:not(.indicator) {
+.note-on-P4:not(.indicator) {
   fill: #1763af !important;
 }
-.note-on-flat5:not(.indicator) {
+.note-on-TT:not(.indicator) {
   fill: #8d8d8d !important;
 }
-.note-on-5:not(.indicator) {
+.note-on-P5:not(.indicator) {
   fill: #00dae9 !important;
 }
-.note-on-sharp5:not(.indicator) {
+.note-on-m6:not(.indicator) {
   fill: #126815 !important;
 }
-.note-on-6:not(.indicator) {
+.note-on-M6:not(.indicator) {
   fill: #ff2b9c !important;
 }
-.note-on-flat7:not(.indicator) {
+.note-on-m7:not(.indicator) {
   fill: #522f8e !important;
 }
-.note-on-7:not(.indicator) {
+.note-on-M7:not(.indicator) {
   fill: #fbff00 !important;
 }
 
@@ -252,4 +252,12 @@ Major seventh: #FFC107 (Gold) */
 }
 .note.indicator.note-on-* {
   fill: #494949;
+}
+
+.note-label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Use a legible font */
+  font-size: 12px; /* Set a small font size */
+  -webkit-font-smoothing: antialiased; /* Enable font smoothing on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Enable font smoothing on Firefox */
+  text-rendering: optimizeLegibility; /* Optimize the text rendering for legibility */
 }
